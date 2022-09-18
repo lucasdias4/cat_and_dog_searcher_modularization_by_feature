@@ -7,11 +7,11 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.lucasdias.android_core.ui_state.UIState
 import com.lucasdias.android_core.ui_state.mapToUIState
+import com.lucasdias.breed.domain.use_case.GetBreedByNameAndAnimalTypeUseCase
 import com.lucasdias.breed.presentation.view_model.mapper.toDomain
 import com.lucasdias.breed.presentation.view_model.mapper.toUI
 import com.lucasdias.breed.presentation.view_model.model.UIBreed
-import com.lucasdias.common_model.UIAnimalType
-import com.lucasdias.breed.domain.use_case.GetBreedByNameAndAnimalTypeUseCase
+import com.lucasdias.common_ui_model.UIAnimalType
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

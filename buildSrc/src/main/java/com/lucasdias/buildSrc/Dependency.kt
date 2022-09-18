@@ -14,7 +14,7 @@ object Dependency {
 
         const val coroutines_core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:" + Versions.coroutines
 
-        const val lifecycle_view_model = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+        const val lifecycle_view_model = "androidx.lifecycle:lifecycle-viewmodel-ktx:" + Versions.lifecycle_view_model
 
         const val kotlin_stdlib: String = "org.jetbrains.kotlin:kotlin-stdlib:" + Versions.kotlin
 

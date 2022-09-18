@@ -19,7 +19,7 @@ object Versions {
     const val koin = "3.2.0"
     const val kotlin = "1.4.20"
     const val ktlint = "0.43.1"
-    const val lifecycle_view_model = "2.2.0"
+    const val lifecycle_view_model = "2.5.0"
     const val logging_interceptor = "4.2.1"
     const val material = "1.2.1"
     const val mockk = "1.12.8"

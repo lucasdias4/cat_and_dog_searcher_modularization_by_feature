@@ -11,7 +11,9 @@ import com.lucasdias.android_core.extension.setErrorState
 import com.lucasdias.android_core.extension.setUp
 import com.lucasdias.android_core.navigator.Navigator
 import com.lucasdias.common_ui_model.UIAnimalType
-import com.lucasdias.common_ui_model.UIAnimalType.*
+import com.lucasdias.common_ui_model.UIAnimalType.CAT
+import com.lucasdias.common_ui_model.UIAnimalType.CAT_AND_DOG
+import com.lucasdias.common_ui_model.UIAnimalType.DOG
 import com.lucasdias.search.view.databinding.ActivitySearchBinding
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel

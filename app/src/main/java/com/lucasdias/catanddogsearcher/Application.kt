@@ -1,7 +1,11 @@
 package com.lucasdias.catanddogsearcher
 
 import android.app.Application
-import com.lucasdias.breed.di.*
+import com.lucasdias.breed.di.breedApiDataSourceModule
+import com.lucasdias.breed.di.breedDomainModule
+import com.lucasdias.breed.di.breedRepositoryModule
+import com.lucasdias.breed.di.breedViewModelModule
+import com.lucasdias.breed.di.breedViewModule
 import com.lucasdias.catanddogsearcher.di.appModule
 import com.lucasdias.search.presentation.di.searchViewModelModule
 import org.koin.android.ext.koin.androidContext

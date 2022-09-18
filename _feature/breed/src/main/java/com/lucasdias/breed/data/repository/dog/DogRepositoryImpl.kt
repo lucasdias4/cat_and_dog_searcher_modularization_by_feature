@@ -1,10 +1,10 @@
 package com.lucasdias.breed.data.repository.dog
 
-import com.lucasdias.core.state.State
-import com.lucasdias.data_core.api_call.mapToDomainState
 import com.lucasdias.breed.data.repository.mapper.toDomain
 import com.lucasdias.breed.domain.model.AnimalType
 import com.lucasdias.breed.domain.model.Breed
+import com.lucasdias.core.state.State
+import com.lucasdias.data_core.api_call.mapToDomainState
 import com.lucasdias.repository.dog.DogApiDataSource
 
 class DogRepositoryImpl(private val dogApiDataSource: DogApiDataSource) :

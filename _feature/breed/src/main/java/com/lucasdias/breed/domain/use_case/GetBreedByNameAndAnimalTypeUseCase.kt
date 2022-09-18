@@ -1,11 +1,11 @@
 package com.lucasdias.breed.domain.use_case
 
-import com.lucasdias.core.state.State
-import com.lucasdias.core.state.merge
-import com.lucasdias.breed.domain.model.Breed
 import com.lucasdias.breed.domain.model.AnimalType
+import com.lucasdias.breed.domain.model.Breed
 import com.lucasdias.breed.domain.repository.CatRepository
 import com.lucasdias.breed.domain.repository.DogRepository
+import com.lucasdias.core.state.State
+import com.lucasdias.core.state.merge
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll

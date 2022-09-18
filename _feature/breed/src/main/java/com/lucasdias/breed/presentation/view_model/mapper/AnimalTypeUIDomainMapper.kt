@@ -1,7 +1,7 @@
 package com.lucasdias.breed.presentation.view_model.mapper
 
-import com.lucasdias.common_model.UIAnimalType
 import com.lucasdias.breed.domain.model.AnimalType
+import com.lucasdias.common_ui_model.UIAnimalType
 
 fun UIAnimalType.toDomain(): AnimalType {
     return try {

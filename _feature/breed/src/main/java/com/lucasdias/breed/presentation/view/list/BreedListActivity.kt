@@ -11,7 +11,7 @@ import com.lucasdias.breed.presentation.view.databinding.ActivityBreedListBindin
 import com.lucasdias.breed.presentation.view.detail.navigateToBreedDetailActivity
 import com.lucasdias.breed.presentation.view_model.BreedListViewModel
 import com.lucasdias.breed.presentation.view_model.model.UIBreed
-import com.lucasdias.common_model.UIAnimalType
+import com.lucasdias.common_ui_model.UIAnimalType
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import org.koin.core.parameter.parametersOf
