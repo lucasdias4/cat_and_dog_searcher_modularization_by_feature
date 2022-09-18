@@ -48,8 +48,8 @@ Below is the representation of the main modules of the application:
 * presentation:common_model module is only used for models that need to be shared between features. Feature-specific models must live within the specific feature.
 
 ## Unit test
-* [unit test 1](https://github.com/lucasdias4/cat_and_dog_searcher/blob/master/_presentation/breed/view_model/src/test/java/com/lucasdias/breed/view_model/BreedListViewModelTest.kt)
-* [unit test 2](https://github.com/lucasdias4/cat_and_dog_searcher/blob/master/_domain/domain/src/test/java/com/lucasdias/domain/use_case/GetBreedByNameAndAnimalTypeUseCaseTest.kt)
+* [unit test 1](https://github.com/lucasdias4/cat_and_dog_searcher_modularization_by_feature/blob/master/_feature/breed/src/test/java/com/lucasdias/breed/presentation/BreedListViewModelTest.kt)
+* [unit test 2](https://github.com/lucasdias4/cat_and_dog_searcher_modularization_by_feature/blob/master/_feature/breed/src/test/java/com/lucasdias/breed/domain/GetBreedByNameAndAnimalTypeUseCaseTest.kt)
 
 
 Some unit tests from another project I made:
