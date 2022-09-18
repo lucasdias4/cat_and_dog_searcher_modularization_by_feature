@@ -60,4 +60,4 @@ Some unit tests from another project I made:
 ## Continuous Integration
 Every time some code is merged into the master or develop branches, the unit tests, ktlint and lint tasks are executed in order to validate the code's quality.
 
-For this the app makes use of Github Actions. In this [link](https://github.com/lucasdias4/cat_and_dog_searcher/actions) you can check the jobs that were executed.
+For this the app makes use of Github Actions. In this [link](https://github.com/lucasdias4/cat_and_dog_searcher_modularization_by_feature/actions) you can check the jobs that were executed.
