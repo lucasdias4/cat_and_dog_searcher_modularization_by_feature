@@ -14,6 +14,7 @@ This application has as main objective to consult the list of cat and dog breeds
 - Kotlin;
 - MVVM;
 - Clean Architecture;
+- Modularization by feature;
 - Coroutines;
 - Koin;
 - MockK;
@@ -37,7 +38,7 @@ This application has as main objective to consult the list of cat and dog breeds
 ## Architecture
 The app was built using MVVM and Clean Architecture.
 
-The modularization was done by layer. Each layer has its own modules (view, view model, domain, repository, data source, etc). The reason for this is to have restrictions, in this way a developer could not disrespect the proposed architecture. For example, an Use Case could never be called directly from an Activity.
+The modularization was done by feature. Each feature has its own modules that contain its own view, view model, domain, repository, data source, etc. With this, we have better decoupling, better build time and we make it easier to divide modules between squads, since it is possible to assign responsibilities for features by squad and these will work in completely separate modules.
 
 Below is the representation of the main modules of the application:
 <p align="center">
@@ -45,17 +46,11 @@ Below is the representation of the main modules of the application:
 </p>
 
 #### Note:
-* presentation:common_model module is only used for models that need to be shared between features. Feature-specific models must live within the specific feature.
+* _featuer:common_ui_model module is only used for models that need to be shared between features. Feature-specific models must live within the specific feature.
 
 ## Unit test
 * [unit test 1](https://github.com/lucasdias4/cat_and_dog_searcher_modularization_by_feature/blob/master/_feature/breed/src/test/java/com/lucasdias/breed/presentation/BreedListViewModelTest.kt)
 * [unit test 2](https://github.com/lucasdias4/cat_and_dog_searcher_modularization_by_feature/blob/master/_feature/breed/src/test/java/com/lucasdias/breed/domain/GetBreedByNameAndAnimalTypeUseCaseTest.kt)
-
-
-Some unit tests from another project I made:
-* [unit test 1](https://github.com/lucasdias4/marvel/blob/master/_presentation/profile/view_model/src/test/java/com/lucasdias/profile/view_model/ProfileViewModelTest.kt)
-* [unit test 2](https://github.com/lucasdias4/marvel/blob/master/_domain/domain/src/test/java/com/lucasdias/domain/GetPreferencesVariableUseCaseTest.kt)
-* [unit test 3]( https://github.com/lucasdias4/marvel/blob/master/_data/repository/src/test/java/com/lucasdias/repository/PreferencesRepositoryImplTest.kt)
 
 ## Continuous Integration
 Every time some code is merged into the master or develop branches, the unit tests, ktlint and lint tasks are executed in order to validate the code's quality.
