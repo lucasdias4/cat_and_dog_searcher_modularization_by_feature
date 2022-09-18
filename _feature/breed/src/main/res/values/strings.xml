@@ -1,0 +1,7 @@
+<resources>
+    <string name="name_breed_activity">Name</string>
+    <string name="temperament_breed_activity">Temperament</string>
+    <string name="lifetime_breed_activity">Lifetime</string>
+    <string name="energy_level_breed_activity">Energy level</string>
+    <string name="wikipedia_button">access wikipedia</string>
+</resources>

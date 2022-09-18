@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomTextInputLayoutStyle">
+        <item name="android:layout_marginStart">@dimen/dimen_16</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_16</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+
+    <style name="CustomTextInputEditLayoutStyle">
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:paddingStart">@dimen/dimen_28</item>
+        <item name="android:paddingEnd">@dimen/dimen_24</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxLength">32</item>
+        <item name="android:background">@drawable/default_input_text_shape</item>
+    </style>
+
+</resources>

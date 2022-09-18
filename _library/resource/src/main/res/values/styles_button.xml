@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomButtonStyle" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textAppearance">@style/U2_bold</item>
+        <item name="android:lineSpacingExtra">0sp</item>
+        <item name="android:layout_marginStart">@dimen/dimen_16</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_16</item>
+        <item name="cornerRadius">@dimen/dimen_4</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+</resources>

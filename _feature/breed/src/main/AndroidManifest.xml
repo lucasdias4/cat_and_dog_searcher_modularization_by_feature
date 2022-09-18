@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lucasdias.breed.presentation.view">
+
+    <application>
+        <activity
+            android:name=".detail.BreedDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CatAndDog" />
+        <activity
+            android:name=".list.BreedListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CatAndDog" />
+    </application>
+
+</manifest>

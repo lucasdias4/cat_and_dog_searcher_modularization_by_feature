@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_1">@color/wild_sand</color>
+    <color name="background_2">@color/bilbao</color>
+    <color name="background_3">@color/bilbao</color>
+
+    <color name="text_1">@color/nero</color>
+    <color name="text_2">@color/wild_sand</color>
+    <color name="text_3">@color/bilbao</color>
+    <color name="text_4">@color/emperor</color>
+    <color name="text_5">@color/nero</color>
+    <color name="text_6">@color/wild_sand</color>
+
+    <color name="alto">#CFCFCF</color>
+    <color name="bilbao">#177718</color>
+    <color name="black">#000000</color>
+    <color name="bright_red">#AA0202</color>
+    <color name="cerise">#E44B83</color>
+    <color name="congress_blue">#01497C</color>
+    <color name="dark_charcoal">#333333</color>
+    <color name="emperor">#555555</color>
+    <color name="gray">#959595</color>
+    <color name="lucky_point">#171B5F</color>
+    <color name="jacksons_purple">#212C91</color>
+    <color name="mercury">#E6E5E5</color>
+    <color name="mine_shaft">#363535</color>
+    <color name="nero">#222222</color>
+    <color name="nobel">#B3B3B3</color>
+    <color name="orange_roughy">#DA491C</color>
+    <color name="orange">#FF5722</color>
+    <color name="transparent">#00000000</color>
+    <color name="razzmatazz">#D81B60</color>
+    <color name="red_pigment">#ED1D24</color>
+    <color name="white">#FFFFFF</color>
+    <color name="wild_sand">#F5F4F4</color>
+</resources>

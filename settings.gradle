@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Cat and dog searcher"
+include ':app'
+include ':_feature:breed'
+include ':_feature:search'
+include ':_library:android_core'
+include ':_library:common_ui_model'
+include ':_library:core'
+include ':_library:data_core'
+include ':_library:remote_data:api'
+include ':_library:remote_data:model'
+include ':_library:resource'

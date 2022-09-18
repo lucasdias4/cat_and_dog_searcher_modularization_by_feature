@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_1"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_16">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/title_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/dimen_4"
+        android:paddingHorizontal="@dimen/dimen_8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/U1_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxWidth="@dimen/dimen_320"
+                android:maxLines="1"
+                android:paddingHorizontal="@dimen/dimen_4"
+                android:textColor="@color/text_2" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/P3_bold"
+        android:textColor="@color/text_1" />
+
+</LinearLayout>

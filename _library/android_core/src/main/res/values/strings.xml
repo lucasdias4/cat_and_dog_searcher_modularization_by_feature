@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Empty View-->
+    <string name="description_empty_view">We didn\'t find any breed with this name. Please try again.</string>
+    <string name="back_button">Back</string>
+    <!--    Error View-->
+    <string name="error_message">An error has occurred</string>
+    <string name="error_view_button_message">Try again</string>
+</resources>

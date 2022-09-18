@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="Theme.CatAndDog" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/wild_sand</item>
+        <item name="colorPrimaryVariant">@color/wild_sand</item>
+        <item name="colorOnPrimary">@color/wild_sand</item>
+        <item name="colorSecondary">@color/wild_sand</item>
+        <item name="colorSecondaryVariant">@color/wild_sand</item>
+        <item name="colorOnSecondary">@color/wild_sand</item>
+        <item name="android:statusBarColor">@color/bilbao</item>
+    </style>
+
+    <style name="Theme.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bilbao</item>
+        <item name="colorPrimaryVariant">@color/bilbao</item>
+        <item name="colorOnPrimary">@color/bilbao</item>
+        <item name="colorSecondary">@color/bilbao</item>
+        <item name="colorSecondaryVariant">@color/bilbao</item>
+        <item name="colorOnSecondary">@color/bilbao</item>
+        <item name="android:statusBarColor">@color/bilbao</item>
+    </style>
+
+</resources>

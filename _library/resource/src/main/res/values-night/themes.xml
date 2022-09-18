@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="Theme.CatAndDog" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/nero</item>
+        <item name="colorPrimaryVariant">@color/nero</item>
+        <item name="colorOnPrimary">@color/nero</item>
+        <item name="colorSecondary">@color/nero</item>
+        <item name="colorSecondaryVariant">@color/nero</item>
+        <item name="colorOnSecondary">@color/nero</item>
+        <item name="android:statusBarColor">@color/nero</item>
+    </style>
+
+    <style name="Theme.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/nero</item>
+        <item name="colorPrimaryVariant">@color/nero</item>
+        <item name="colorOnPrimary">@color/nero</item>
+        <item name="colorSecondary">@color/nero</item>
+        <item name="colorSecondaryVariant">@color/nero</item>
+        <item name="colorOnSecondary">@color/nero</item>
+        <item name="android:statusBarColor">@color/nero</item>
+    </style>
+
+</resources>

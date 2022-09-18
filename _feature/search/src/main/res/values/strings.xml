@@ -1,0 +1,5 @@
+<resources>
+    <string name="empty_search_text">Please write the name of an animal breed</string>
+    <string name="search_button">Search</string>
+    <string name="animal_breed_text_view_hint">animal breed</string>
+</resources>
