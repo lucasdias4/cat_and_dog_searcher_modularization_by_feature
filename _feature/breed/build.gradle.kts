@@ -45,7 +45,6 @@ android {
 }
 
 dependencies {
-    //todo rever dependencia do Android core -> core
     implementation(project(Dependency.Module.android_core))
     implementation(project(Dependency.Module.api))
     implementation(project(Dependency.Module.api_model))
